@@ -1,5 +1,7 @@
 # Hybridiff: Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling
 
+<img width="1539" height="416" alt="image" src="https://github.com/user-attachments/assets/b3284293-6cd0-48fa-a87f-8bbd22dd2ca4" />
+
 *Official implementation of the CVPR 2026 paper "Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling”*
 
 **Hybridiff** is a high-performance diffusion model inference framework that combines condition-based partitioning with adaptive parallelism switching for accelerated image generation. This repository implements dynamic threshold detection (`tau1`, `tau2`) to automatically optimize the trade-off between quality and speed during the diffusion inference.
