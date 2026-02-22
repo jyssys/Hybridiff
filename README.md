@@ -1,8 +1,8 @@
-# HybriDiff: Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling
+# Hybridiff: Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling
 
-*Official implementation of the CVPR 2026 paper Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling”*
+*Official implementation of the CVPR 2026 paper "Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling”*
 
-**HybriDiff** is a high-performance diffusion model inference framework that combines condition-based partitioning with adaptive parallelism switching for accelerated image generation. This repository implements dynamic threshold detection (`tau1`, `tau2`) to automatically optimize the trade-off between quality and speed during the diffusion inference.
+**Hybridiff** is a high-performance diffusion model inference framework that combines condition-based partitioning with adaptive parallelism switching for accelerated image generation. This repository implements dynamic threshold detection (`tau1`, `tau2`) to automatically optimize the trade-off between quality and speed during the diffusion inference.
 
 ## Installation
 
@@ -109,7 +109,7 @@ python examples/compute_metric.py \
 - **`stride`**: Stride for pipeline parallelism (1 or 2) -> Based on asyncdiff
 - **`time_shift`**: Enable time-shifted inference (default: False) -> Based on asyncdiff
 
-### HybriDiff Threshold Parameters
+### Hybridiff Threshold Parameters
 
 - **`L_slope`**: Window size for computing slope in tau1 detection
   - SDXL default: 12
