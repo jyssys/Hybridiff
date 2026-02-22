@@ -170,7 +170,7 @@ This project is licensed under the Apache License 2.0 - see the original Diffuse
 ## Acknowledgments
 
 - Built on top of [Hugging Face Diffusers](https://github.com/huggingface/diffusers)
-- Inspired by AsyncDiff and other parallel diffusion inference works
+- Inspired by [AsyncDiff](https://github.com/czg1225/AsyncDiff) and other parallel diffusion inference works
 - Thanks to the Stable Diffusion community for pre-trained models
 
 ## Citation
